@@ -35,3 +35,15 @@
 //     }
 //   }
 // }
+
+Cypress.Commands.add("addElement", () => {
+  cy.get("button").contains("Add Element").should("be.visible").click();
+});
+
+Cypress.Commands.add("getElementsCount", () => {
+  return cy.get(".added-manually").its("length");
+});
+
+Cypress.Commands.add("deleteFirstElement", () => {
+  cy.get(".added-manually").contains("Delete").first().click();
+});
