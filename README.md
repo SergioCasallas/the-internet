@@ -1,16 +1,10 @@
 # bun-cypress
 
-To install dependencies:
+# Automatización de Pruebas para the-internet.herokuapp.com
 
-```bash
-bun install
-```
+Este proyecto consiste en la automatización de pruebas para todos los escenarios disponibles en [the-internet.herokuapp.com](https://the-internet.herokuapp.com/). El objetivo es practicar y demostrar habilidades en testing automatizado utilizando [Cypress].
 
-To run:
+El repositorio contiene scripts que interactúan con los diferentes elementos y funcionalidades del sitio web, validando su comportamiento y asegurando la correcta ejecución de cada prueba.
 
-```bash
-bun run index.ts
-```
 
-This project was created using `bun init` in bun v1.2.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
-# the-internet
+
